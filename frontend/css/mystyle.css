@@ -1,0 +1,94 @@
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+#forTopHead{box-shadow: 0px 0px 3px 1px #a8aaac; position: fixed; top: 0; background: #fefcf4;  transition: 0.2s; padding: 20px 0;}
+.TopHeadInn{align-items: center;}
+.frlogo{padding: 0;}
+#logoimg{width: 100px; height: auto;}
+.forMarquee{width: 100%; height: 40px; /*border: 1px solid #f2cb3f;*/}
+.forMarquee marquee{color: #2e2400; line-height: 40px; text-decoration: none; font-weight: 600;font-size: 15px;}
+.forMarquee marquee a#frmarquee, .forMarquee marquee a#frmarquee2{color: #2e2400; line-height: 40px; text-decoration: none; font-weight: 600; font-size: 15px;}
+.forLogoScreen{border:1px solid rgba(0,0,0,.125); border-radius: 15px; padding: 30px 20px; height: 300px; display: flex; justify-content: center;
+align-items: center; width: 47%;}
+.forLoginForm{border:1px solid rgba(0,0,0,.125); border-radius: 15px; padding: 30px 20px;height: 300px; display: flex; align-items: center; width: 47%;}
+.forLoginScreenn{padding: 165px 0px 50px 0; display: flex; justify-content: space-evenly; }
+.forLoginScreenn form{width: 100%;}
+.forLoginScreenn input{width: 100%; display: flex; justify-content: space-evenly;}
+.forLoginScreenn .btn{background: #238ac3; border:none; padding:10px 25px; margin: 20px 0;}
+.forfooter{border-top: 1px solid #dee2e6;background: #f2f2f2; position: fixed;bottom: 0;}
+.footerInn{padding-left: 0; padding-right: 0;}
+footer{padding: 10px 0;transition: all 0.25s ease;
+-moz-transition: all 0.25s ease;
+-webkit-transition: all 0.25s ease;
+-ms-transition: all 0.25s ease;
+font-size: calc(0.875rem - 0.05rem);text-decoration: none;
+width: 100%;
+ display: flex; justify-content: space-between;}
+ footer a{color:#d6ad1b;text-decoration: none;}
+  .forUser img{margin-bottom: 10px;border: 1px solid #ccc;border-radius: 15px;}
+ .forUser h2{text-align: left; font-weight: bold; padding: 0 15px 5px 20px;}
+  .forUser ul{list-style: none; padding:0; margin: 0 0 7px 0;}
+ .forUser ul li{margin: 0; padding: 0; width: 100%; margin: 0 0 0px 0;}
+.forUser ul li a{text-align: left; font-weight: 600; font-size: 16px; line-height: 40px; text-decoration: none; color: #1d1d1d; width: 100%; display: block; padding: 0 20px; border-radius: 10px;}
+.forUser ul li a:hover{background: #238ac3; color: #ffffff !important; text-decoration: none;}
+.forUser ul li a.mainn{color: #238ac3; text-transform: uppercase;}
+.dashboardOuter{padding-top: 50px;}
+.dashboardHead{display:flex;justify-content: space-between;}
+.dashboardHead ul{list-style: none;display: flex;justify-content: space-between; padding: 0;}
+.dashboardHead ul li{margin:0 10px;}
+.forDashboardd{padding: 20px 20px 15px 20px; border:1px solid #f2f2f2; margin: 40px 20px 46px 20px; border-radius: 15px; }
+.searchbtnnn{border:none; padding: 0;}
+.dashboardHeadRightOuter{padding:0 0px 0 40px;}
+.dashboardHeadRight input{border:none;border-bottom: 1px solid #ccc;border-radius: 0;}
+.dashboardHeadLeft .btn-primary{background:#238ac3; border: none;
+padding: 10px 25px;}
+.dashboardHead ul i{color:#363636; }
+.afterHeadDash{padding: 20px 0;}
+
+.forDaliySale{padding: 7px 15px 10px 15px;background: #fff;border-radius: 15px;  box-shadow: 0px 0px 3px 1px #ccc;}
+.forDaliySale p, .forEmailSubs p{margin: 5px 0;}
+.forEmailSubs{padding: 7px 15px 10px 15px;background: #fff;border-radius: 15px;  box-shadow: 0px 0px 3px 1px #ccc;}
+.forDaliySale img, .forEmailSubs img{}
+.forDaliySale .forline{width:80%;height: 3px; background: #f2cb3f;}
+.forEmailSubs .forline{width:80%;height: 3px; background: #f2cb3f;}
+.usedspace,.fixedIsuues, .followers{padding: 5px 15px;background: #fff;  box-shadow: 0px 0px 3px 1px #ccc; position:relative;}
+.usedspace p,.fixedIsuues p, .followers p{font-size: 25px; font-weight: bold; padding: 5px 0 5px 0;
+margin: 0;}
+.usedspace .forDash{width:80%;height: 3px; background: #f2cb3f;}
+.fixedIsuues .forDash{width:80%;height: 3px; background: #a8aaac;}
+.followers .forDash{width:80%;height: 3px; background: #238ac3;}
+.usedspace img,.fixedIsuues img, .followers img{position: absolute; bottom: -20px; right:20px; }
+
+/* for iec report start */
+.frIECreports{padding-top: 50px;}
+.frIECreportsInn{padding: 20px 20px 15px 20px;border: 1px solid #f2f2f2;margin: 40px 20px 46px 20px;border-radius: 15px;}
+.UpperForm{display: flex; justify-content: space-between; margin-bottom:20px;}
+.bottomForm{display: flex; justify-content: space-between; margin-bottom:15px;}
+.UpperForm .multiselect-dropdown{width:100% !important; padding: 0.250rem .75rem !important;}
+.frIECreportsInn h3{margin-bottom:15px;}
+/* for iec report end */
+
+/* --- responisve css start here --- */
+
+@media only screen and (max-width: 991px) {
+  .forDashboardd {padding: 20px 7px 5px 7px; margin: 40px 0px 84px 0px;}
+  .forUser{padding:0;}
+  .dashboardHeadRightOuter {padding: 0 0px 0 20px;}
+  .dashboardHead {flex-direction: column;}
+  .dashboardHeadLeft{width: 100%;order: 3;}
+  .dashboardHeadRight{order:2;}
+  .dashboardHead ul {  justify-content: right;padding: 0;order: 1;}
+  .forDaliySale{margin-bottom: 20px;}
+  .usedspace, .fixedIsuues, .followers{margin-bottom: 30px;}
+  .footer{flex-direction: column;}
+  .dashboardHeadLeft h2{margin: 10px 0;}
+}
+
+@media only screen and (max-width: 575px) {
+#forTopHead{padding:15px 20px;}
+.forLoginScreenn{padding-top:110px;}
+.forLogoScreen{display: none;}
+.forLoginForm{margin: 30px 5% 15px 5%; width: 90%;}
+.frlogo{padding:10px 20px;}
+}
+
+/* --- responisve css start here --- */
